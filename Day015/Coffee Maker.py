@@ -92,4 +92,5 @@ while not end_state:
                 print(f"Sorry you haven't paid enough money.")
                 end_state = True
         else:
+            print("Sorry not enough resources to complete the order.")
             end_state = True
