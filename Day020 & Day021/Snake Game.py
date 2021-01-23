@@ -27,7 +27,7 @@ while not end_state:
     time.sleep(0.1)
     snake.move_snake()
 
-#collision detection
+#detection of eating food
 
     if snake.squares_list[0].distance(food) < 15:
         food.refresh()
@@ -39,7 +39,7 @@ while not end_state:
         end_state = True
         scoreboard.game_over()
 
-#collsion with wall
+#collsion with tail
 
     for counter in snake.squares_list[1:]:
 
