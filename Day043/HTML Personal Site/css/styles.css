@@ -1,0 +1,29 @@
+
+<style media="screen">
+  body {
+    background-color: #EAF6F6;
+  }
+
+  hr {
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 7px;
+    height: 1px;
+    width: 10%;
+
+  }
+
+  img {
+    height: 250px;
+  }
+
+  h1 {
+    color: #66BFBF;
+  }
+
+  h3 {
+    color: #66BFBF;
+  }
+</style>
