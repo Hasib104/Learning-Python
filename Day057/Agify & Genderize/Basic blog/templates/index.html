@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My blog</title>
+</head>
+<body>
+<!--    {% for item in posts %}-->
+<!--        <h1>{{ item["title"] }}</h1>-->
+<!--        <h2>{{ item["subtitle"] }}</h2>-->
+<!--    {% endfor %}-->
+
+        {% for item in posts: %}
+            {% if item["id"] == 2: %}
+            <h1>{{ item["title"] }}</h1>
+            <h2>{{ item["subtitle"] }}</h2>
+            {% endif %}
+        {% endfor %}
+<a href="{{ url_for('function') }}">Go Home</a>
+</body>
+<footer>
+
+</footer>
+</html>
